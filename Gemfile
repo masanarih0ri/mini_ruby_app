@@ -11,3 +11,7 @@ gem "sinatra"
 gem "minitest"
 
 gem "byebug"
+
+group :development do
+  gem 'rubocop-fjord', require: false
+end
